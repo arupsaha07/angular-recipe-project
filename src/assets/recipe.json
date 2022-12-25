@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken & chorizo jambalaya",
+    "description": "A healthy Cajun-inspired rice pot recipe that's bursting with spicy Spanish sausage, sweet peppers and tomatoes",
+    "img_src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1274503_8-05ae02b.jpg?quality=90&webp=true&resize=300,272",
+    "trending":false,
+    "rating":4.5
+  },
+  {
+    "id": 2,
+    "name": "Chicken pasta bake",
+    "description": "Enjoy this gooey cheese and chicken pasta bake for the ultimate weekday family dinner. Serve straight from the dish with a dressed green salad",
+    "img_src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken_pasta_bake-06fe2d6.jpg?quality=90&webp=true&resize=300,272",
+    "trending":true,
+    "rating":5
+  },
+  {
+    "id": 3,
+    "name": "Whole roast chicken with braised roots & peas",
+    "description": "Layer swede, potato and leeks to roast alongside a chicken for a healthy dinner. A whole chicken is budget-friendly as it can provide leftovers for the week",
+    "img_src": "https://images.immediate.co.uk/production/volatile/sites/30/2022/11/Whole-roast-chicken-d28d2dc.jpg?quality=90&webp=true&resize=300,272",
+    "trending":true,
+    "rating":2.5
+  },
+  {
+    "id": 4,
+    "name": "Creamy spinach chicken",
+    "description": "Enjoy our creamy spinach chicken with plenty of sauce and rice or potatoes on the side. Serving four, it's an ideal midweek dinner for a family",
+    "img_src": "https://images.immediate.co.uk/production/volatile/sites/30/2022/09/CreamySpinachChicken-e6b2815.jpg?quality=90&webp=true&resize=300,272",
+    "trending":true,
+    "rating":5
+  },
+  {
+    "id": 5,
+    "name": "Chicken madras",
+    "description": "Ditch the takeaway menu and cook our healthy chicken madras curry instead. This simple family dinner is full of fragrant spices and tender pieces of chicken",
+    "img_src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken-madras-f69ab47.jpg?quality=90&webp=true&resize=300,272",
+    "trending":false,
+    "rating":3
+  },
+  {
+    "id": 6,
+    "name": "Chicken enchiladas",
+    "description": "Mildly spicy and satisfying, these easy enchiladas stuffed with refried beans, onion and red pepper will be popular with the whole family",
+    "img_src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken_enchiladas-ce0a2dd.jpg?quality=90&webp=true&resize=300,272",
+    "trending":true,
+    "rating":5
+  },
+  {
+    "id": 7,
+    "name": "Quick roast Christmas chicken & sticky veg",
+    "description": "Enjoy an energy- and cost-efficient festive lunch – we’ve used a few tricks to cut down on the oven cooking time, but the result is still a succulent chicken",
+    "img_src": "https://images.immediate.co.uk/production/volatile/sites/30/2022/10/Quick-roast-Christmas-chicken-and-sticky-veg-6385224.jpg?quality=90&webp=true&resize=300,272",
+    "trending":false,
+    "rating":2
+  },
+  {
+    "id": 8,
+    "name": "Easy coronation chicken",
+    "description": "Make a classic coronation chicken filling to serve with jacket potatoes or in sandwiches and salads. It's an excellent way to use up leftover chicken after a roast",
+    "img_src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/coronation_chicken-55f6963.jpg?quality=90&webp=true&resize=300,272",
+    "trending":false,
+    "rating":5
+  }
+]
