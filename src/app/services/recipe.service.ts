@@ -5,24 +5,17 @@ import { IRecipe } from '../shared/recipe';
 
 @Injectable()
 export class RecipeService {
-  url: string = 'assets/recipe.json';
 
   public singleRecipeData: any;
-
-  private subject = new Subject<IRecipe>();
 
   constructor(private http: HttpClient) {}
 
   getAllRecipe() {
-    return this.http.get<IRecipe[]>(this.url);
+    return this.http.get<any>('http://localhost:3000/api/v1/recipes');
   }
 
-  sendMessage(val) {
-    this.subject.next(val);
-  }
-
-  receiveMessage(): Observable<IRecipe> {
-    return this.subject.asObservable();
+  getSingleRecipe(id){
+    return this.http.get<any>(`http://localhost:3000/api/v1/recipe/${id}`);
   }
 
   

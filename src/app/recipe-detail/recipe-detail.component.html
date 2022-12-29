@@ -1,0 +1,36 @@
+<div class="p-3 mb-2" *ngIf="recipe !== undefined">
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-md-4">
+        <img src="{{ recipe.img_src }}" class="w-100" alt="..." />
+      </div>
+      <div class="col-md-8">
+        <h4>{{ recipe.name }}</h4>
+        <p>{{ recipe.description }}</p>
+        <p>
+          <span [class]="['badge', getBg(recipe.rating)]"><fa-icon [icon]="star"></fa-icon> {{recipe.rating}}</span>
+          <span class="mx-2">2495 Ratings</span> <a href="">Rate</a> <a class="ms-2" href="">951 comments</a>
+        </p>
+      </div>
+    </div>
+    <div class="row py-4">
+      <div class="col-md-6">
+        <h4>Ingredients</h4>
+        <ul class="list-group">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4>Method</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, minus! </p>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
